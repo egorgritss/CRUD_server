@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cz.cvut.fit.gritsego.semestral.rest_api.SponsorControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-01-06T15:24:42" hostname="DESKTOP-00B7A6Q" time="0.056">
+  <properties/>
+  <testcase name="delete()" classname="cz.cvut.fit.gritsego.semestral.rest_api.SponsorControllerTest" time="0.006"/>
+  <testcase name="update()" classname="cz.cvut.fit.gritsego.semestral.rest_api.SponsorControllerTest" time="0.02"/>
+  <testcase name="postNew()" classname="cz.cvut.fit.gritsego.semestral.rest_api.SponsorControllerTest" time="0.009"/>
+  <testcase name="readAll()" classname="cz.cvut.fit.gritsego.semestral.rest_api.SponsorControllerTest" time="0.01"/>
+  <testcase name="readOne()" classname="cz.cvut.fit.gritsego.semestral.rest_api.SponsorControllerTest" time="0.007"/>
+  <system-out><![CDATA[2021-01-06 16:24:41.798  INFO 11148 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [cz.cvut.fit.gritsego.semestral.rest_api.SponsorControllerTest], using SpringBootContextLoader
+2021-01-06 16:24:41.799  INFO 11148 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [cz.cvut.fit.gritsego.semestral.rest_api.SponsorControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-06 16:24:41.799  INFO 11148 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [cz.cvut.fit.gritsego.semestral.rest_api.SponsorControllerTest]: SponsorControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-01-06 16:24:41.802  INFO 11148 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration cz.cvut.fit.gritsego.semestral.SemestralApplication for test class cz.cvut.fit.gritsego.semestral.rest_api.SponsorControllerTest
+2021-01-06 16:24:41.805  INFO 11148 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-01-06 16:24:41.805  INFO 11148 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@562c1805, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f86f35, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@40b5c9cd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@52bdd32f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64e7154d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@f0d5f23, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@611804ae, org.springframework.test.context.event.EventPublishingTestExecutionListener@5d009709, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@111bc99, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@64801fdf, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@459c4a95, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1cfd35f0, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1004b782, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@749e2cba]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.0)
+
+2021-01-06 16:24:41.831  INFO 11148 --- [    Test worker] c.c.f.g.s.r.SponsorControllerTest        : Starting SponsorControllerTest using Java 15 on DESKTOP-00B7A6Q with PID 11148 (started by golyt in C:\Users\golyt\IdeaProjects\Semestral)
+2021-01-06 16:24:41.832  INFO 11148 --- [    Test worker] c.c.f.g.s.r.SponsorControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-06 16:24:42.001  INFO 11148 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-06 16:24:42.016  INFO 11148 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 3 JPA repository interfaces.
+2021-01-06 16:24:42.166  INFO 11148 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-06 16:24:42.170  INFO 11148 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-01-06 16:24:42.171  INFO 11148 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-01-06 16:24:42.185  INFO 11148 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-06 16:24:42.195  INFO 11148 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-06 16:24:42.258  INFO 11148 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-06 16:24:42.258  INFO 11148 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-06 16:24:42.309  WARN 11148 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-06 16:24:42.636  INFO 11148 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-01-06 16:24:42.636  INFO 11148 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-01-06 16:24:42.637  INFO 11148 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-01-06 16:24:42.643  INFO 11148 --- [    Test worker] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-01-06 16:24:42.731  INFO 11148 --- [    Test worker] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-01-06 16:24:42.733  INFO 11148 --- [    Test worker] c.c.f.g.s.r.SponsorControllerTest        : Started SponsorControllerTest in 0.925 seconds (JVM running for 5.617)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

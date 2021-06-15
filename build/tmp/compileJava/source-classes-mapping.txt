@@ -1,0 +1,50 @@
+cz/cvut/fit/gritsego/semestral/rest_api/TeamController.java
+ cz.cvut.fit.gritsego.semestral.rest_api.TeamController
+cz/cvut/fit/gritsego/semestral/dto/PlayerCreateDTO.java
+ cz.cvut.fit.gritsego.semestral.dto.PlayerCreateDTO
+cz/cvut/fit/gritsego/semestral/rest_api/PlayerController.java
+ cz.cvut.fit.gritsego.semestral.rest_api.PlayerController
+cz/cvut/fit/gritsego/semestral/service/CrudService.java
+ cz.cvut.fit.gritsego.semestral.service.CrudService
+cz/cvut/fit/gritsego/semestral/rest_api/SponsorController.java
+ cz.cvut.fit.gritsego.semestral.rest_api.SponsorController
+cz/cvut/fit/gritsego/semestral/dto/SponsorCreateDTO.java
+ cz.cvut.fit.gritsego.semestral.dto.SponsorCreateDTO
+cz/cvut/fit/gritsego/semestral/repository/PlayerRepository.java
+ cz.cvut.fit.gritsego.semestral.repository.PlayerRepository
+cz/cvut/fit/gritsego/semestral/entity/Player.java
+ cz.cvut.fit.gritsego.semestral.entity.Player
+cz/cvut/fit/gritsego/semestral/dto/TeamDTO.java
+ cz.cvut.fit.gritsego.semestral.dto.TeamDTO
+cz/cvut/fit/gritsego/semestral/exeptions/PlayerNotFoundException.java
+ cz.cvut.fit.gritsego.semestral.exeptions.PlayerNotFoundException
+cz/cvut/fit/gritsego/semestral/repository/TeamRepository.java
+ cz.cvut.fit.gritsego.semestral.repository.TeamRepository
+cz/cvut/fit/gritsego/semestral/exeptions/TeamNotFoundException.java
+ cz.cvut.fit.gritsego.semestral.exeptions.TeamNotFoundException
+cz/cvut/fit/gritsego/semestral/service/SponsorService.java
+ cz.cvut.fit.gritsego.semestral.service.SponsorService
+cz/cvut/fit/gritsego/semestral/dto/TeamCreateDTO.java
+ cz.cvut.fit.gritsego.semestral.dto.TeamCreateDTO
+cz/cvut/fit/gritsego/semestral/dto/SponsorDTO.java
+ cz.cvut.fit.gritsego.semestral.dto.SponsorDTO
+cz/cvut/fit/gritsego/semestral/repository/SponsorRepository.java
+ cz.cvut.fit.gritsego.semestral.repository.SponsorRepository
+cz/cvut/fit/gritsego/semestral/entity/Team.java
+ cz.cvut.fit.gritsego.semestral.entity.Team
+cz/cvut/fit/gritsego/semestral/exeptions/PlayersAmountBoundExceedException.java
+ cz.cvut.fit.gritsego.semestral.exeptions.PlayersAmountBoundExceedException
+cz/cvut/fit/gritsego/semestral/dto/PlayerDTO.java
+ cz.cvut.fit.gritsego.semestral.dto.PlayerDTO
+cz/cvut/fit/gritsego/semestral/service/TeamService.java
+ cz.cvut.fit.gritsego.semestral.service.TeamService
+cz/cvut/fit/gritsego/semestral/entity/Sponsor.java
+ cz.cvut.fit.gritsego.semestral.entity.Sponsor
+cz/cvut/fit/gritsego/semestral/exeptions/PlayerIsBuisyException.java
+ cz.cvut.fit.gritsego.semestral.exeptions.PlayerIsBuisyException
+cz/cvut/fit/gritsego/semestral/service/PlayerService.java
+ cz.cvut.fit.gritsego.semestral.service.PlayerService
+cz/cvut/fit/gritsego/semestral/exeptions/SponsorNotFoundException.java
+ cz.cvut.fit.gritsego.semestral.exeptions.SponsorNotFoundException
+cz/cvut/fit/gritsego/semestral/SemestralApplication.java
+ cz.cvut.fit.gritsego.semestral.SemestralApplication

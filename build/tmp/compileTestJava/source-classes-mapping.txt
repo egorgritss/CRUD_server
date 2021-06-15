@@ -1,0 +1,16 @@
+cz/cvut/fit/gritsego/semestral/rest_api/SponsorControllerTest.java
+ cz.cvut.fit.gritsego.semestral.rest_api.SponsorControllerTest
+cz/cvut/fit/gritsego/semestral/service/SponsorServiceTest.java
+ cz.cvut.fit.gritsego.semestral.service.SponsorServiceTest
+cz/cvut/fit/gritsego/semestral/SemestralApplicationTests.java
+ cz.cvut.fit.gritsego.semestral.SemestralApplicationTests
+cz/cvut/fit/gritsego/semestral/rest_api/PlayerControllerTest.java
+ cz.cvut.fit.gritsego.semestral.rest_api.PlayerControllerTest
+cz/cvut/fit/gritsego/semestral/service/PlayerServiceTest.java
+ cz.cvut.fit.gritsego.semestral.service.PlayerServiceTest
+cz/cvut/fit/gritsego/semestral/service/TeamServiceTest.java
+ cz.cvut.fit.gritsego.semestral.service.TeamServiceTest
+cz/cvut/fit/gritsego/semestral/entity/TeamEntityTest.java
+ cz.cvut.fit.gritsego.semestral.entity.TeamEntityTest
+cz/cvut/fit/gritsego/semestral/rest_api/TeamControllerTest.java
+ cz.cvut.fit.gritsego.semestral.rest_api.TeamControllerTest
