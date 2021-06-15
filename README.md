@@ -1,8 +1,8 @@
 Server:
 
 Server is running on localhost:8080
-Database type: Oracle
-Database location: CTU server
+Database type: Yours
+Database location: Yors
 
 Java runtime version required: 11
 Start by navigating ti build/libs and executing jar file.
